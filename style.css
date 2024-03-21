@@ -110,7 +110,7 @@ div {
     background-color: #55067c;
     padding: 15px;
     width:100px;
-    height: 70px;
+    height: 20px;
     display: grid;
     transition: 0.75s;
     display: fit-content;
@@ -118,6 +118,7 @@ div {
     
     
     }
+
     .rndrecother {
         border-radius: 25px;
     background-color: #55067c;
