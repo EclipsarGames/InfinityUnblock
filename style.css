@@ -1,11 +1,4 @@
-div {
-    color: rgb(255, 255, 255);
-    font-family: Verdana;
-    font-size: 100%;
-  
-  
-    
-  }
+
   a {
     color: rgb(255, 255, 255);
     font-family: Verdana;
@@ -21,11 +14,21 @@ div {
   
   
   .rectangle {
-    height: 40x;
-    width: 1870px;
-    padding: 3px;
+
+    padding:4px;
+    border-radius: 7px;
     background-color:#55067c;
+    width: fit-content;
+    transition: 0.75s;
+
   }
+
+  .horizontalspacer {
+    height: 0px;
+    width: 0px;
+
+  }
+
 
 
   
@@ -43,6 +46,7 @@ div {
   display: grid;
   transition: 0.75s;
   margin: 10px;
+
   
   
   }
@@ -119,6 +123,8 @@ div {
     display: grid;
     transition: 0.75s;
     display: fit-content;
+    outline-style: solid;
+    outline-color:#490670;
     
     
     
@@ -132,8 +138,8 @@ div {
       height: 20px;
       display: grid;
       transition: 0.75s;
-      display: fit-content;
       outline: solid;
+      margin: auto;
       outline-color: blueviolet;
       
       
@@ -147,7 +153,11 @@ div {
       width:400px;
       height: 350px;
       display: grid;
+      outline-style: solid;
+      outline-color:#8a5302;
       background-image: url(Assets/Screenshot\ 2024-03-20\ 213012.png)
+    
+
 
     }
     .main2 {
@@ -158,6 +168,8 @@ div {
       width:400px;
       height: 250px;
       display: grid;
+      outline-style: solid;
+      outline-color:#490670;
 
 
 
@@ -191,7 +203,9 @@ div {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
+    background-size: 120%;
     background-image: url(Assets/653166.jpg)
+    
     
 
   
@@ -218,6 +232,12 @@ div {
 .rndrecother:hover {
   background-color: #31044b;
   transform: translate(3%, 3%);
+
+
+  
+}
+.rectangle:hover {
+  transform: translate(0%, 5%);
 
 
   
@@ -251,9 +271,14 @@ div {
     font-size: 300%;
   }
   div{
-  margin: auto;
+
   border: 3px solid ();
   padding: 10px;
+  color: rgb(255, 255, 255);
+  font-family: Verdana;
+  font-size: 100%;
+  width: fit-content;
+  height: fit-content;
   
   }
   h2 {
