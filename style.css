@@ -26,6 +26,9 @@ div {
     padding: 3px;
     background-color:#55067c;
   }
+
+
+  
   
 
   
@@ -120,6 +123,45 @@ div {
     
     
     }
+    .rndrecbutton2 {
+  
+      border-radius: 25px;
+      background-color: #55067c;
+      padding: 15px;
+      width:100px;
+      height: 20px;
+      display: grid;
+      transition: 0.75s;
+      display: fit-content;
+      outline: solid;
+      outline-color: blueviolet;
+      
+      
+      
+      }
+    .main {
+
+      border-radius: 25px;
+      background-color: #fafafa33;
+      padding: 15px;
+      width:400px;
+      height: 350px;
+      display: grid;
+      background-image: url(Assets/Screenshot\ 2024-03-20\ 213012.png)
+
+    }
+    .main2 {
+
+      border-radius: 25px;
+      background-color: #55067c;
+      padding: 15px;
+      width:400px;
+      height: 250px;
+      display: grid;
+
+
+
+    }
 
     .rndrecother {
         border-radius: 25px;
@@ -145,10 +187,13 @@ div {
   
   }
   body {
-    background-color: #200130;
+    background-color: #0a000c;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
+    background-image: url(Assets/653166.jpg)
+    
+
   
     
   }
@@ -175,8 +220,14 @@ div {
   transform: translate(3%, 3%);
 
 
-}
   
+}
+.rndrecbutton2:hover {
+  background-color: #31044b;
+
+
+
+}
   
   a:hover {
     color: #878688;
@@ -214,4 +265,14 @@ div {
     color: rgb(255, 255, 255);
     font-family: Arial, Helvetica, sans-serif;
     font-size: 100%;
+  }
+  .bottom{
+
+    height: 400x;
+    width: 1870px;
+    padding: 70px;
+    background-color:#000000
+
+
+
   }
