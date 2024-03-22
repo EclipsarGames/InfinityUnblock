@@ -1,7 +1,8 @@
 
   a {
     color: rgb(255, 255, 255);
-    font-family: Verdana;
+    font-family:Verdana;
+    text-decoration-thickness: 54%;
     font-size: 100%;
   }
   
@@ -291,13 +292,8 @@
     font-family: Arial, Helvetica, sans-serif;
     font-size: 100%;
   }
-  .bottom{
-
-    height: 400x;
-    width: 1870px;
-    padding: 70px;
-    background-color:#000000
-
-
+  .navbar2 {
+    background-color: #000000;
 
   }
+  
