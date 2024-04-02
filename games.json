@@ -1,0 +1,15 @@
+[
+
+    {
+  "name": "Deal or No Deal",
+  "image": "cover.svg",
+  "directory": "projects/deal-or-no-deal/index.html"
+
+},
+{
+    "name": "Soccer Skills",
+    "image": "cover.svg",
+    "directory": "skills"
+
+  }      
+]

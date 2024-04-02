@@ -1,7 +1,7 @@
 
   a {
     color: rgb(255, 255, 255);
-    font-family:Verdana;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-decoration-thickness: 54%;
     font-size: 100%;
   }
@@ -47,6 +47,7 @@
   display: grid;
   transition: 0.75s;
   margin: 10px;
+  display: inline-block;
 
   
   
@@ -156,7 +157,7 @@
       display: grid;
       outline-style: solid;
       outline-color:#8a5302;
-      background-image: url(Assets/Screenshot\ 2024-03-20\ 213012.png)
+      background-image: url(Assets/compasswallp.png)
     
 
 
@@ -164,7 +165,7 @@
     .main2 {
 
       border-radius: 25px;
-      background-color: #55067c;
+      background-color: #7c0606;
       padding: 15px;
       width:400px;
       height: 250px;
@@ -205,7 +206,7 @@
     background-attachment: fixed;
     background-position: center;
     background-size: 120%;
-    background-image: url(Assets/653166.jpg)
+
     
     
 
@@ -269,7 +270,8 @@
   h1{
     color: rgb(255, 255, 255);
     font-family: Verdana;
-    font-size: 300%;
+    font-size: 1000%;
+    text-shadow: 10px 10px black;
   }
   div{
 
@@ -284,13 +286,14 @@
   }
   h2 {
     color: rgb(255, 255, 255);
-    font-family: verdana;
-    font-size: 160%;
+    font-family: Verdana;
+    font-size: 300%;
+    text-shadow: 5px 5px black;
   }
   p {
     color: rgb(255, 255, 255);
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 100%;
+    font-family: Verdana;
+
   }
   .navbar2 {
     background-color: #000000;
