@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html><head lang="en">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="UTF-8">
+    <title>rpiframe</title>
+</head>
+<body data-new-gr-c-s-check-loaded="8.911.0" data-gr-ext-installed="">
+<script type="text/javascript">
+    // This is the oauth server domain.
+    var opOrigin = "https://api.unity.com";
+    var obj = {};
+    // This part of code will extract the required parameter from the hash fragment of the uri.
+    if (window.document.location.hash) {
+        var hash = window.document.location.hash.substring(1);
+        var params = hash.split("&");
+        for (var i = 0; i < params.length; i++) {
+            var param = params[i].split("=");
+            var key = decodeURIComponent(param[0]);
+            var value = typeof param[1] !== 'undefined' ? decodeURIComponent(param[1]) : true;
+            obj[key] = value;
+        }
+    }
+    // generate the message
+    var mes = obj.client_id + " " + obj.session_state;
+    function checkSession() {
+        if (mes && window.parent) {
+            // get the opiframe through id
+            var opiframe = window.parent.document.getElementById("opiframe");
+            if (opiframe) {
+                var win = opiframe.contentWindow;
+                // send message to the opiframe
+                win.postMessage(mes, opOrigin);
+            }
+        }
+    }
+    function getOrigin() {
+        var defaultPorts = {"http:": 80, "https:": 443};
+        return window.location.protocol + "//" + window.location.hostname
+            + (((window.location.port) && (window.location.port !=
+            defaultPorts[window.location.protocol]))
+                ? (":" + window.location.port) : "");
+    }
+    // handle the return message of the opiframe
+    function receiveMessage(e) {
+        if (e.origin !== opOrigin) {
+            return;
+        }
+        // if the opiframe returns changed, which means the user has logged out, stop the timer and notify the parent web page.
+        if (e.data == "changed") {
+            clearTimer();
+            window.parent.postMessage("sessionChanged", getOrigin())
+        }
+
+        if (e.data == "logged_in") {
+            clearTimer();
+
+            window.parent.postMessage("sessionLoggedIn", getOrigin())
+        }
+
+        if (e.data == "logged_out") {
+            clearTimer();
+
+            window.parent.postMessage("sessionLoggedOut", getOrigin())
+        }
+    }
+    if (window.addEventListener) {
+        window.addEventListener('message', receiveMessage);
+    } else { // IE8 or earlier
+        window.attachEvent('onmessage', receiveMessage);
+    }
+    var timerId = null;
+    // check session every 3 seconds
+    function setTimer() {
+        clearTimer();
+        checkSession();
+        timerId = setInterval("checkSession()", 3 * 1000);
+    }
+    function clearTimer() {
+        if (timerId) {
+            window.clearInterval(timerId);
+            timerId = null;
+        }
+    }
+    if (obj.client_id) {
+        setTimer();
+    }
+</script>
+
+</body><grammarly-desktop-integration data-grammarly-shadow-root="true"></grammarly-desktop-integration></html>
