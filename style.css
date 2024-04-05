@@ -154,12 +154,27 @@
       border-radius: 25px;
       background-color: #fafafa33;
       padding: 15px;
-      width:400px;
+      width: 400px;
       height: 500px;
       display: grid;
       outline-style: solid;
       outline-color:#8a5302;
       background-image: url(Assets/compasswallp.png);
+
+
+
+
+    }
+    .main3 {
+
+      border-radius: 25px;
+      background-color: #2bd808;
+      padding: 15px;
+      width:400px;
+      height: 500px;
+      display: grid;
+      outline-style: solid;
+      outline-color:#107403;
 
 
 
@@ -265,7 +280,7 @@
   
   
   
-  h1 {text-align: center;}
+
   h2 {text-align: center;}
   div {text-align: center;}
   p {text-align: center;}
