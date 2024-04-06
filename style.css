@@ -16,11 +16,12 @@
   
   .rectangle {
 
-    padding:4px;
+    padding:0px;
     border-radius: 7px;
     background-color:#55067c;
     width: fit-content;
     transition: 0.75s;
+    
     
     
 
@@ -154,11 +155,11 @@
       border-radius: 25px;
       background-color: #fafafa33;
       padding: 15px;
-      width: 400px;
       height: 500px;
       display: grid;
       outline-style: solid;
       outline-color:#8a5302;
+      width: fit-content;
       background-image: url(Assets/compasswallp.png);
 
 
@@ -239,6 +240,7 @@
   
   
   }
+  
   .rndrecbutton:hover {
     background-color: #31044b;
     transform: translate(3%, 3%);
