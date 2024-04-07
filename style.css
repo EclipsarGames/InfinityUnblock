@@ -17,25 +17,13 @@
   .rectangle {
 
     padding:0px;
-    border-radius: 7px;
     background-color:#55067c;
     width: fit-content;
     transition: 0.75s;
     position: fixed;
-    z-index:1
-    
-    
-    
-
-  }
-  .rectangle2 {
-
-    padding:0px;
-    border-radius: 7px;
-    background-color:#55067c;
-    width: fit-content;
-    transition: 0.75s;
-    display: inline-block;
+    z-index:1;
+    right: 0%;
+    top: 0%;
     
     
     
@@ -86,11 +74,6 @@
     
     }
 
-    .sticky {
-      position: fixed;
-      top: 0;
-      width: 100%;
-    }
     .search-input {
   
       border-radius: 25px;
@@ -223,11 +206,12 @@
         border-radius: 25px;
     background-color: #55067c;
         padding: 15px;
-        width: 100px;
-        height: 100px;
+        width: 150px;
+        height: 140px;
         transition: 0.75s;
         display: inline-block;
         margin: 30px;
+
       }
   
   .button {
@@ -283,12 +267,7 @@
 
   
 }
-.rectangle:hover {
-  transform: translate(0%, 5%);
 
-
-  
-}
 .rndrecbutton2:hover {
   background-color: #31044b;
 
