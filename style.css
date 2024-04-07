@@ -70,6 +70,8 @@
     display: grid;
     transition: 0.75s;
     margin: 10px;
+    outline-style: solid;
+
     
     
     }
