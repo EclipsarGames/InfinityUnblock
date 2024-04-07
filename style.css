@@ -21,6 +21,22 @@
     background-color:#55067c;
     width: fit-content;
     transition: 0.75s;
+    position: fixed;
+    z-index:1
+    
+    
+    
+
+  }
+  .rectangle2 {
+
+    padding:0px;
+    border-radius: 7px;
+    background-color:#55067c;
+    width: fit-content;
+    transition: 0.75s;
+    display: inline-block;
+    
     
     
     
@@ -55,6 +71,7 @@
   
   
   }
+
   .more {
   
     border-radius: 25px;
@@ -67,6 +84,12 @@
     margin: 10px;
     
     
+    }
+
+    .sticky {
+      position: fixed;
+      top: 0;
+      width: 100%;
     }
     .search-input {
   
