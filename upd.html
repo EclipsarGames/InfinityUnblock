@@ -7,20 +7,29 @@
 <style>
     body{    background-image: url(Assets/background3.png)}
 
-.warningheader {
+.wrappr {
 
 border-radius: 25px;
 background-color: #55067c7c;
 padding: 15px;
 width: fit-content;
 height: fit-content;
-
+backdrop-filter: blur(5.1px);
+-webkit-backdrop-filter: blur(5.1px);
 margin: 60px;
 outline-style: solid;
 outline-color:#490670;
+transition: .30s;
 
 
 
+}
+
+.wrappr:hover {
+
+  backdrop-filter: blur(5.1px);
+  -webkit-backdrop-filter: blur(5.1px);
+  background-color: #39045485;
 }
 p {text-align: center;}
 
@@ -41,7 +50,7 @@ p {text-align: center;}
     <div style="width:600px; display: table-cell;"> <a href="projects.html" style="text-decoration:none"> Games  <div class="button">   </div>  </a>   </div>
   
 
-    <div style="width:600px; display: table-cell;"> <a href="upd.html" style="text-decoration:none">  Updates <  <div class="button">    </div>  </a>   </div>
+    <div style="width:600px; display: table-cell;"> <a href="upd.html" style="text-decoration:none">  Updates   <div class="button">    </div>  </a>   </div>
 
     <div style="width:600px; display: table-cell;"> <a href="apps.html" style="text-decoration:none"> Apps   <div class="button">    </div>  </a>   </div>
   
@@ -53,7 +62,7 @@ p {text-align: center;}
 
 <center>
 
-
+<div class="wrappr">
 
 <h2>Updates</h2>
 <p>3/20/2024 V 1.2.0 BETA.
@@ -66,11 +75,12 @@ p {text-align: center;}
 <p>3/28/2024 V 1.2.2 BETA. Added apps and iFrames</p>
 <p>4/2/2024 V 1.2.3 BETA. Massive theme update</p>
 <p>4/7/2024 V 1.2.4 BETA. Search bar now works!</p>
-</div>
+
+<a href="index.html" style="text-decoration:none"> <div class="rndrecbutton2"> <b> Go home   </b>  </div>  </a>  
 </center>
- <a href="index.html" style="text-decoration:none"> <div class="rndrecbutton2"> <b> Go home   </b>  </div>  </a>  
 
-
+<center>
+</div>
 
 
 
@@ -82,8 +92,8 @@ p {text-align: center;}
 
 
 
- <div class="warningheader">
-  <center>
+ <div class="wrappr">
+  
 
   <h2>⚠ WARNING ⚠</h2>
   <p>CFISD is on a banning spree and it has took over 
@@ -94,12 +104,14 @@ p {text-align: center;}
   <p>There is a bio.link I have made (<a href="https://lithiumgamesfryli.bio.link " style="text-decoration: none;">lithiumgamesfryli.bio.link</a>)</p>
   <p>if the listed bio.link gets banned, yourlithiumindian.bio.link will replace it.</p>
   </div>
+
+</div>
 </center>
 <center>
   <div class="spacer"></div>
   <div class="spacer"></div>
   <a href="upd.html" style="text-decoration:none" >Back to top ↑</a>
-  </center>
+</center>
 
 
 
