@@ -16,6 +16,7 @@
   
     padding: px;
     border-radius: 25px;
+    vertical-align: middle;
     
   }
   
@@ -28,7 +29,7 @@
     transition: 0.75s;
     position: fixed;
     z-index:1;
-    right: 0%;
+    left: 0%;
     top: 0%;
     backdrop-filter: blur(5.1px);
     -webkit-backdrop-filter: blur(5.1px);
@@ -305,12 +306,12 @@
 
 }
   
-#rectangle:hover > a {
+a:hover {
   color: #ffffff;
   height: 2px;
 }
 
-#rectangle::before > a {
+#hover-worthy::before {
   content: "";
   position: absolute;
   display: block;
@@ -325,7 +326,7 @@
 
   }
 
-#rectangle:hover::before > a {
+#hover-worthy:hover::before {
   transform: scaleX(1.15);
 }
   
@@ -369,6 +370,7 @@
     font-family: Verdana;
     font-size: 200%;
     text-shadow: 3px 3px black;
+    text-align: center;
   }
   p {
     color: rgb(255, 255, 255);
