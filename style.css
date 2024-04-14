@@ -10,7 +10,9 @@
     padding-bottom: 10px;
   }
 
+   /*THESE ARE THEME BACKGROUNDS*/
 
+   .light
 
 
   
@@ -104,6 +106,25 @@
 
   
   
+  }
+
+  
+
+  #searchResultTemplate {
+      
+  border-radius: 25px;
+  background-color: #55067ca6;
+  padding: 15px;
+  width: 200px;
+  height: 210px;
+  display: grid;
+  transition: 0.30s;
+  margin: 10px;
+  display: inline-block;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  outline-style: solid;
+  outline-color:#490670;
   }
 
   .more {
@@ -313,6 +334,7 @@
     background-attachment: fixed;
     background-position: center;
     background-size: 120%;
+    margin: 0;
 
     
     
@@ -428,12 +450,16 @@ a:hover {
     font-family: Verdana;
 
   }
-  .navbar2 { margin:0; padding:0 }
+
 
   .navbar2 {
-      display: inline-block;
-      width: 100%;
-      height: 50px;
+    padding:0px;
+    background-color:#040404;
+    width: fit-content;
+    transition: 0.75s;
+    bottom: 0%;
+
+
 
   }
   
