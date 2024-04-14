@@ -10,12 +10,7 @@
     padding-bottom: 10px;
   }
 
-   /*THESE ARE THEME BACKGROUNDS*/
 
-   .light
-
-
-  
   img {
   
     padding: px;
@@ -143,8 +138,7 @@
     
     }
 
-    .search-input {
-  
+    input {
       border-radius: 25px;
       background-color: #55067c55;
       padding: 15px;
@@ -156,11 +150,16 @@
       backdrop-filter: blur(5.1px);
       -webkit-backdrop-filter: blur(5.1px);
       border: 1px solid rgba(255, 255, 255, 0.3);
+
+
+    }
+
+
+
       
       
       
       
-      }  
       .search-button {
   
         border-radius: 27px;
