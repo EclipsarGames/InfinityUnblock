@@ -1,5 +1,10 @@
 [
   {
+    "title": "1",
+    "link": "projects/1/index.html",
+    "image": "projects/1/meta/apple-touch-icon.png"
+  },
+  {
     "title": "1 on 1 soccer",
     "link": "projects/1on1soccer/index.html",
     "image": "projects/1on1soccer/logo.jpg"
@@ -25,9 +30,29 @@
     "image": "projects/2drocketleague/unnamed.png"
   },
   {
-    "title": "60'S Burger run",
+    "title": "8 Ball classic",
+    "link": "projects/8ball-billards-classic/index.html",
+    "image": "projects/8ball-billards-classic/icon.png"
+  },
+  {
+    "title": "10 minutes till dawn",
+    "link": "projects/10-minutes-till-dawn/index.html",
+    "image": "projects/10-minutes-till-dawn/splash.png"
+  },
+  {
+    "title": "60S Burger run",
     "link": "projects/60sburgerrun/index.html",
     "image": "projects/60sburgerrun/icon.png"
+  },
+  {
+    "title": "100ng",
+    "link": "projects/100ng/index.html",
+    "image": "projects/100ng.jpg"
+  },
+  {
+    "title": "2020 game",
+    "link": "projects/2020-game/index.html",
+    "image": "projects/2020-game/icon.jpeg"
   },
   {
     "title": "Achievement unlocked",
