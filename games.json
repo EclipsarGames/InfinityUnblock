@@ -1,5 +1,10 @@
 [
   {
+    "title": "Request a game",
+    "link": "https://docs.google.com/forms/d/e/1FAIpQLScS2l3F33SJ5SZAM9MNiXClsHc-eqpqtYcvuM7SFjolM-WuBA/viewform?usp=sf_link",
+    "image": "Assets/gamerequest.png"
+  },
+  {
     "title": "1",
     "link": "projects/1/index.html",
     "image": "projects/1/meta/apple-touch-icon.png"
@@ -47,12 +52,17 @@
   {
     "title": "100ng",
     "link": "projects/100ng/index.html",
-    "image": "projects/100ng.jpg"
+    "image": "Assets/errnoimg.png"
   },
   {
     "title": "2020 game",
     "link": "projects/2020-game/index.html",
     "image": "projects/2020-game/icon.jpeg"
+  },
+  {
+    "title": "9007199254740992",
+    "link": "projects/9007/index.html",
+    "image": "projects/9007/logo-4.png"
   },
   {
     "title": "Achievement unlocked",
@@ -70,7 +80,7 @@
     "image": "projects/adarkroom/favicon.ico"
   },
   {
-    "title": "Adofai",
+    "title": "ADOFAI",
     "link": "projects/adofai/index.html",
     "image": "projects/adofai/icon.png"
   },
@@ -88,6 +98,21 @@
     "title": "Age of war",
     "link": "projects/ageofwar/index.html",
     "image": "projects/ageofwar/warofage.jpg"
+  },
+  {
+    "title": "Alien hominid",
+    "link": "projects/alienhominid/index.html",
+    "image": "projects/alienhominid/alienhominid.jpeg"
+  },
+  {
+    "title": "Alien invaders",
+    "link": "projects/alien-invaders-io/index.html",
+    "image": "projects/alien-invaders-io/splash.jfif"
+  },
+  {
+    "title": "Align 4",
+    "link": "projects/align-4/index.html",
+    "image": "Assets/errnoimg.png"
   },
   {
     "title": "Amazing rope police",

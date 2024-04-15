@@ -44,6 +44,16 @@
 
 
   }
+
+
+  .btn {
+    padding: 10px 20px;
+    background-color: #fff;
+    border: none;
+    cursor: pointer;
+    margin: 0 10px;
+  }
+
   
   
   .rectangle {
@@ -51,7 +61,6 @@
     padding:0px;
     background-color:#55067c73;
     width: fit-content;
-    transition: 0.75s;
     position: fixed;
     z-index:1;
     left: 0%;
