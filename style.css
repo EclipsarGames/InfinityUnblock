@@ -462,10 +462,12 @@ a:hover {
 
   .navbar2 {
     padding:0px;
-    background-color:#040404;
-    width: fit-content;
+    background-color:#1c1c1c;
+    width: 100%;
+    left: 0px;
     transition: 0.75s;
-    bottom: 0%;
+    bottom: 0px;
+    position: absolute;
 
 
 
