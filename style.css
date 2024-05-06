@@ -10,6 +10,21 @@
     padding-bottom: 10px;
   }
 
+  .header {
+    background-image: url(Assets/background1.png);
+    display: flex;
+    background-size: cover;
+    width: fit-content;
+    size: 100%;
+    text-align: center;
+
+    
+    height: 650px;
+    width: 100%;
+
+
+  }
+
 
   img {
   
