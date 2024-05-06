@@ -1,5 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Radio+Canada+Big:ital,wght@0,400..700;1,400..700&family=Ubuntu+Sans:ital,wght@0,100..800;1,100..800&display=swap');
+  /*ANIMATIONS*/
+@keyframes blink {
+  0% {
+    color: white;
+  }
+  50% {
+    color: red;
+  }
+  100% {
+    border-color: white;
+  }
+}
 
-  a {
+@keyframes fall {
+  0% {
+    transform: translateY(-500px);
+  }
+
+  80% {
+    transform: translateY(3px);
+
+  }
+  
+  100% {
+    transform: translateY(0px);
+
+  }
+
+
+}
+
+@keyframes brighten {
+  0% {
+    filter: brightness(1%);
+  }
+
+
+  
+  100% {
+    filter: brightness(100%);
+
+  }
+
+
+}
+
+
+/*END OF ANIMATIONS*/
+
+#h1ani {
+  animation: fall 1s;
+}
+
+
+
+a {
     color: rgb(255, 255, 255);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-decoration-thickness: 54%;
@@ -11,24 +66,27 @@
   }
 
   .header {
-    background-image: url(Assets/background1.png);
-    display: flex;
+    background-image: url(Assets/3AiL3yN.png);
     background-size: cover;
     width: fit-content;
     size: 100%;
-    text-align: center;
-
-    
     height: 650px;
-    width: 100%;
+    width: 98%;
+    border-color: azure;
 
 
   }
 
+  #heheheha1 {
+    animation: blink 1s 2;
+  }
+
+
+
 
   img {
   
-    padding: px;
+
     border-radius: 25px;
     vertical-align: middle;
     
@@ -49,6 +107,8 @@
     border-style: solid;
     border-color:#490670;
   }
+
+
 
   .rndrecjs:hover {
 
@@ -74,7 +134,10 @@
   .rectangle {
 
     padding:0px;
-    background-color:#55067c73;
+    margin: 10px;
+    background-color: #8a8a8a4e;
+    border-radius: 5px;
+
     width: fit-content;
     position: fixed;
     z-index:1;
@@ -109,7 +172,7 @@
   .rndrec {
   
   border-radius: 25px;
-  background-color: #55067ca6;
+  background-color: #1f1f1f;
   padding: 15px;
   width: 200px;
   height: 210px;
@@ -120,9 +183,16 @@
   backdrop-filter: blur(5px);
   -webkit-backdrop-filter: blur(5px);
   outline-style: solid;
-  outline-color:#490670;
+  outline-color:#ffffff;
+  animation: brighten 3s;
 
 
+  
+  
+  }
+
+  .rndrec:hover {
+    outline-color: #787878;
   
   
   }
@@ -163,8 +233,8 @@
     }
 
     input {
-      border-radius: 25px;
-      background-color: #55067c55;
+      border-radius: 15px;
+      background-color: #5a5a5a55;
       padding: 15px;
       width: 500px;
       height: 20px;
@@ -173,7 +243,8 @@
       color: white;
       backdrop-filter: blur(5.1px);
       -webkit-backdrop-filter: blur(5.1px);
-      border: 1px solid rgba(255, 255, 255, 0.3);
+      border: 3px solid rgb(255, 255, 255);
+      animation: brighten 4s;
 
 
     }
@@ -365,11 +436,7 @@
   
     
   }
-  .rndrec:hover {
-    background-color: #6c1f998a;
-  
-  
-  }
+
   
   .rndrecbutton:hover {
     background-color: #31044b;
@@ -440,9 +507,10 @@ a:hover {
   
   h1{
     color: rgb(255, 255, 255);
-    font-family: Verdana;
+    font-family: 'radio canada big';
     font-size: 1000%;
-    text-shadow: 10px 10px black;
+
+    text-shadow: 10px 10px 5px rgba(0, 0, 0, 0.423);
   }
   div{
 
@@ -470,7 +538,7 @@ a:hover {
   }
   p {
     color: rgb(255, 255, 255);
-    font-family: Verdana;
+    font-family: 'ubuntu sans', sans-serif;
 
   }
 
