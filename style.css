@@ -556,6 +556,23 @@ a:hover {
     font-family: 'ubuntu sans', sans-serif;
 
   }
+  
+  .text-button {
+    color: white;
+    padding-left: 45px;
+    padding-right: 45px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    border-radius: 10px;
+    background-color: #292929;
+    border-style: solid;
+    border-color: #959595;
+    margin-top: 10px;
+  }
+
+  .text-button:hover {
+    background-color: #4a4a4a;
+  }
 
 
   .navbar2 {
@@ -571,4 +588,5 @@ a:hover {
 
 
   }
+
   
