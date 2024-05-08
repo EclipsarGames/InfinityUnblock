@@ -45,12 +45,47 @@
 
 }
 
+@keyframes Shadow {
+
+
+  
+  25% {
+    box-shadow: 0 0 70px 
+  }
+
+  100% {
+    box-shadow: 0 0 70px 
+
+  }
+}
+
+
 
 /*END OF ANIMATIONS*/
 
 #h1ani {
   animation: fall 1s;
 }
+
+.rndrec:hover {
+
+  transform: scale(0.95);
+  box-shadow: 0 0 70px 
+
+
+}
+
+input:hover {
+  box-shadow: 0 0 70px 
+}
+.rndrec::after {
+  animation: spinShadow 3s linear infinite;
+  size: 150px;
+}
+
+
+
+
 
 
 
@@ -185,20 +220,14 @@ a {
   -webkit-backdrop-filter: blur(5px);
   outline-style: solid;
   outline-color:#ffffff;
-  animation: brighten 3s;
+
 
 
   
   
   }
 
-  .rndrec:hover {
-    background-color: #827f838a;
-    backdrop-filter: blur(5px);
-    -webkit-backdrop-filter: blur(5px);
-  
-  
-  }
+
 
   
 
@@ -241,6 +270,23 @@ a {
       padding: 15px;
       width: 500px;
       height: 20px;
+      display: grid;
+      transition: 0.75s;
+      color: white;
+      backdrop-filter: blur(5.1px);
+      -webkit-backdrop-filter: blur(5.1px);
+      border: 3px solid rgb(255, 255, 255);
+      animation: brighten 4s;
+
+
+    }
+
+    .lights {
+      border-radius: 15px;
+      background-color: #5a5a5a55;
+      padding: 15px;
+      
+
       display: grid;
       transition: 0.75s;
       color: white;
@@ -582,8 +628,7 @@ a:hover {
     left: 0px;
     transition: 0.75s;
     bottom: 0px;
-    position: relative;
-    bottom: 0%;
+    bottom: 100%;
 
 
 
