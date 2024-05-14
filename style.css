@@ -67,6 +67,16 @@
   animation: fall 1s;
 }
 
+#signup {
+  
+  animation: brighten 5s
+  ;text-shadow: none;
+
+  
+
+
+}
+
 .rndrec:hover {
 
   transform: scale(0.95);
@@ -482,7 +492,7 @@ a {
   
   }
   body {
-    background-color: #0a000c;
+    background-color: #000000;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
