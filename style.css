@@ -613,6 +613,12 @@ a:hover {
 
   }
   
+  #tos {
+    color: white;
+    text-decoration: white;
+  }
+
+
   .text-button {
     color: white;
     padding-left: 45px;
