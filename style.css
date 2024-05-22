@@ -65,6 +65,12 @@
 
 #h1ani {
   animation: fall 1s;
+  transition: 1s;
+
+}
+
+#h1ani:hover {
+  transform: translateY(5px);
 }
 
 #signup {
