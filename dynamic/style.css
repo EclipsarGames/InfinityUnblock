@@ -12,70 +12,14 @@
   }
 }
 
-@keyframes fall {
-  0% {
-    transform: translateY(-500px);
-  }
-
-  80% {
-    transform: translateY(3px);
-
-  }
-  
-  100% {
-    transform: translateY(0px);
-
-  }
-
-
-}
-
-#raah:hover {
-  color: #4a4a4a;
-}
-
-@keyframes brighten {
-  0% {
-    filter: brightness(1%);
-  }
-
-
-  
-  100% {
-    filter: brightness(100%);
-
-  }
-
-
-}
-
-@keyframes Shadow {
-
-
-  
-  25% {
-    box-shadow: 0 0 70px 
-  }
-
-  100% {
-    box-shadow: 0 0 70px 
-
-  }
-}
-
-
-
 /*END OF ANIMATIONS*/
 
 #h1ani {
   animation: fall 1s;
-  transition: 1s;
+
 
 }
 
-#h1ani:hover {
-  transform: translateY(5px);
-}
 
 #signup {
   
@@ -89,19 +33,15 @@
 
 .rndrec:hover {
 
-  transform: scale(0.95);
-  box-shadow: 0 0 70px 
 
 
+filter: brightness(60%);
 }
 
 input:hover {
-  box-shadow: 0 0 70px 
+  filter: brightness(60%);
 }
-.rndrec::after {
-  animation: spinShadow 3s linear infinite;
-  size: 150px;
-}
+
 
 
 
@@ -114,14 +54,14 @@ a {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-decoration-thickness: 54%;
     font-size: 100%;
-    transition: .50s;
+
     position: relative;
     text-decoration: none;
     padding-bottom: 10px;
   }
 
   .header {
-    background-image: url(Assets/3AiL3yN.png);
+    background-color: #292929;
     background-size: cover;
     width: fit-content;
     size: 100%;
@@ -190,9 +130,9 @@ a {
   .rectangle {
 
     padding:0px;
-    margin: 10px;
-    background-color: #8a8a8a4e;
-    border-radius: 5px;
+
+    background-color: #333333;
+
 
     width: fit-content;
     position: fixed;
@@ -211,28 +151,14 @@ a {
 
   }
 
-  #stuff {
-    opacity: 0.0;
-    -webkit-transition: all 500ms ease-in-out;
-    -moz-transition: all 500ms ease-in-out;
-    -ms-transition: all 500ms ease-in-out;
-    -o-transition: all 500ms ease-in-out;
-    transition: all 500ms ease-in-out;
-}
-#hover {
-
-
-    margin-top:-30px;
-}
-#hover:hover + #stuff {
-    opacity: 1.0;
-}
-
+  #raah:hover {
+    color: #4a4a4a;
+  }
   
 
   .horizontalspacer {
-    height: 1px;
-    width: 100px;
+    height: 0px;
+    width: 0px;
 
   }
 
@@ -423,7 +349,7 @@ a {
     .rndrecbutton2 {
   
       border-radius: 25px;
-      background-color: #950c0c87;
+      background-color: #91919187;
       padding: 15px;
       width: 100px;
       height: 20px;
@@ -441,6 +367,7 @@ a {
       
       
       }
+
     .main {
 
       border-radius: 25px;
@@ -453,6 +380,8 @@ a {
       width: fit-content;
       background-image: url(Assets/compasswallp.png);
 
+
+ 
 
 
 
@@ -560,9 +489,8 @@ a {
 
 
 .rndrecbutton2:hover {
-  background-color: rgba(186, 55, 32, 0.507);
-  backdrop-filter: blur(5px);
-  -webkit-backdrop-filter: blur(5px);
+  background-color: rgba(83, 83, 83, 0.507);
+
 
 
 
@@ -573,23 +501,8 @@ a:hover {
   height: 2px;
 }
 
-#hover-worthy::before {
-  content: "";
-  position: absolute;
-  display: block;
-  width: 100%;
-  height: 2px;
-  bottom: 0;
-  left: 0;
-  background-color: #ffffff;
-  transform: scaleX(0);
-  transition: transform 0.3s ease;
-  
-
-  }
-
-#hover-worthy:hover::before {
-  transform: scaleX(1.15);
+#hover-worthy:hover {
+  color: #767676;
 }
   
   
