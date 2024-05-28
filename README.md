@@ -1,2 +1,2 @@
-*Infinity Unblock* by KnightGames
-No games are owned by KnightGames!
+*Infinity Unblock* by EclipsarGames
+No games are owned by EclipsarGames!
